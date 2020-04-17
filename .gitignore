@@ -3,3 +3,5 @@ out
 hello-java.iml
 .java-version
 .gradle
+# Ignore Gradle build output directory
+build
