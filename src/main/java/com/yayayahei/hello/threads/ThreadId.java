@@ -1,4 +1,4 @@
-package com.yayayahei.threads;
+package com.yayayahei.hello.threads;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -6,7 +6,7 @@ public class ThreadId {
 
     private static final AtomicInteger nextId = new AtomicInteger(0);
 
-    private static final ThreadLocal<Integer> threadId = new ThreadLocal<>() {
+    private static final ThreadLocal<Integer> threadId = new ThreadLocal<Integer>() {
         @Override
         protected Integer initialValue() {
             return nextId.getAndIncrement();

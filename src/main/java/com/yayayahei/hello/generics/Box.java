@@ -1,4 +1,4 @@
-package com.yayayahei.generics;
+package com.yayayahei.hello.generics;
 
 public class Box<T> {
     private T t;

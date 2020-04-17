@@ -1,4 +1,4 @@
-package com.yayayahei.types;
+package com.yayayahei.hello.types;
 
 
 public class ConvertStringToDouble {
