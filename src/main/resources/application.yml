@@ -1,0 +1,8 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+spring:
+  http:
+#    log-request-details: true
