@@ -1,4 +1,4 @@
-package com.yayayahei.hello;
+package com.yayayahei.hello.spring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
