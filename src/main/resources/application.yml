@@ -3,6 +3,21 @@ management:
     web:
       exposure:
         include: "*"
+  endpoint:
+    health:
+      show-details: always
+      group:
+        information:
+          show-details: always
+          include: "*"
+          exclude: redis
+  health:
+    redis:
+#      enabled: false
 spring:
   http:
 #    log-request-details: true
+  redis:
+    database: 0
+    host: 53.99.98.35
+    port: 16379
